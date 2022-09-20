@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Select Seats</title>
+</head>
+
+<body>
+    <header>
+        <div class="popover">
+            <div class="fluid">
+                <h5>How Many Seats?</h5>
+            </div>
+            <div class="container">
+                <input type="radio" name="images" id="i1">
+                <input type="radio" name="images" id="i2" checked>
+                <input type="radio" name="images" id="i3">
+                <input type="radio" name="images" id="i4">
+                <input type="radio" name="images" id="i5">
+                <input type="radio" name="images" id="i6">
+                <input type="radio" name="images" id="i7">
+                <input type="radio" name="images" id="i8">
+                <input type="radio" name="images" id="i9">
+                <input type="radio" name="images" id="i10">
+
+
+
+                <div class="slide_img" id="one">
+                    <img src="images/cycle.png" alt="">
+                </div>
+
+                <div class="slide_img" id="two">
+                    <img src="images/bike.png" alt="">
+                </div>
+
+                <div class="slide_img" id="three">
+                    <img src="images/auto.png" alt="">
+                </div>
+
+                <div class="slide_img" id="four">
+                    <img src="images/minicar.png" alt="">
+                </div>
+
+                <div class="slide_img" id="five">
+                    <img src="images/car.png" alt="">
+                </div>
+
+                <div class="slide_img" id="six">
+                    <img src="images/car.png" alt="">
+                </div>
+
+                <div class="slide_img" id="seven">
+                    <img src="images/car.png" alt="">
+                </div>
+
+                <div class="slide_img" id="eight">
+                    <img src="images/van.png" alt="">
+                </div>
+
+                <div class="slide_img" id="nine">
+                    <img src="images/van.png" alt="">
+                </div>
+
+                <div class="slide_img" id="ten">
+                    <img src="images/van.png" alt="">
+                </div>
+
+                <div class="nav">
+                    <label for="i1" class="dots" id="dot1">1</label>
+                    <label for="i2" class="dots" id="dot2">2</label>
+                    <label for="i3" class="dots" id="dot3">3</label>
+                    <label for="i4" class="dots" id="dot4">4</label>
+                    <label for="i5" class="dots" id="dot5">5</label>
+                    <label for="i6" class="dots" id="dot6">6</label>
+                    <label for="i7" class="dots" id="dot7">7</label>
+                    <label for="i8" class="dots" id="dot8">8</label>
+                    <label for="i9" class="dots" id="dot9">9</label>
+                    <label for="i10" class="dots" id="dot10">10</label>
+                </div>
+            </div>
+        </div>
+        <div class="cat-list">
+            <div class="line" id="line">
+                <input type="radio" class="seat-category hidden">
+                <div class="cat-info">
+                    <span class="category">DIAMOND</span>
+                    <span class="cat-price" style="font-family:Open Sans; font-weight:bolder;">Rs. 190.00</span>
+
+                    <span class="cat-status">Available</span>
+                </div>
+                <input type="radio" class="seat-category hidden">
+                <div class="cat-info">
+                    <span class="category">PEARL</span>
+                    <!--avilable
+                almost full
+                 sold out
+                 #category-list > div:nth-child(2) > span.cat-status._available
+                  
+                 document.querySelector("#category-list > div:nth-child(2) > span.cat-status._available")
+
+                document.querySelector("#category-list > div:nth-child(4) > span.cat-status._filling")
+
+                <div id="proceed-Qty" class="bar-btn _primary _full-width _centered" data-value="">
+				Select Seats
+				</div>
+            -->
+                    <span class="cat-price">Rs. 60.00</span>
+                    <span class="cat-status">Available</span>
+                </div>
+                <div class="btn-bar">
+                    <div id="proceed-Qty" class="bar-btn _primary _full-width _centered" data-value="">
+                        Select Seats
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
